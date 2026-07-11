@@ -36,35 +36,36 @@ This project aims to identify at-risk customers early enough for retention teams
 ## Machine Learning Pipeline
 1. Synthetic data generation
 2. Exploratory Data Analysis (EDA)
-3. Feature engineering
-4. Train/test split
-5. Compare Logistic Regression, Decision Tree, and Random Forest Classification
+3. Train/test split
+4. Compare Logistic Regression, Decision Tree, and Random Forest Classification & ROC-AUC
+5. ROC curve comparison
 6. Hyperparameter tuning
-7. ROC-AUC evaluation
-8. Feature importance analysis
-9. SHAP explainability
+7. Feature importance analysis
+8. SHAP explainability
 
 ## Model Performance
-Logistic Regression Results
-- Accuracy:
-- Churn Recall:
-- Churn Precision:
-- Churn F1 Score:
-- ROC-AUC:
+| Metric | Logistic Regression Results | Decision Tree Results | Random Forest Results |
+|---------|-----------------------------|-----------------------|-----------------------|
+| Accuracy | 0.78 | 0.75 | 0.70 |
+- Churn Recall: 0.37
+- Churn Precision: 0.38
+- Churn F1 Score: 0.38
+- ROC-AUC: 0.729
 
 - Decision Tree Results
-- Accuracy:
-- Churn Recall:
-- Churn Precision:
-- Churn F1 Score:
-- ROC-AUC:
+- Accuracy: 0.75
+- Churn Recall: 0.34
+- Churn Precision: 0.32
+- Churn F1 Score: 0.33
+- ROC-AUC: 0.636
 
 - Random Forest Results
-- Accuracy:
-- Churn Recall:
-- Churn Precision:
-- Churn F1 Score:
-- ROC-AUC:
+- Accuracy: 0.7
+- Churn Recall: 0.63
+- Churn Precision: 0.32
+- Churn F1 Score: 0.42
+- ROC-AUC: 0.717
+
 
 ## Key Findings
 Random Forest model was the best performing.
@@ -79,10 +80,20 @@ SHAP analysis identified the strongest churn predictors:
 Customers with lower satisfaction and shorter tenure exhibited the highest churn risk.
 
 ## Visualizations
+<img width="580" height="453" alt="download" src="https://github.com/user-attachments/assets/a3804146-a9d7-4a6d-9b85-6ca7f5f552b6" />
+
+<img width="571" height="453" alt="download" src="https://github.com/user-attachments/assets/0a6652f2-aece-4641-91d9-e6e958c55f47" />
+
+<img width="915" height="809" alt="download" src="https://github.com/user-attachments/assets/802ca8b8-70d2-4d7d-bb5b-b5ae937063ed" />
+
+### ROC Curve Comparison
+<img width="567" height="453" alt="download" src="https://github.com/user-attachments/assets/fa386a37-7c1f-4337-8666-2b39cb2cb2d6" />
 
 ### Feature Importance
+<img width="688" height="453" alt="download" src="https://github.com/user-attachments/assets/1e5b4994-6d45-4e3b-8c84-78853a581c48" />
 
 ### SHAP Summary Plot
+<img width="826" height="466" alt="download" src="https://github.com/user-attachments/assets/53ea9299-9c58-4994-9029-0f0aeacb6dd0" />
 
 ## Technologies
 - Python
