@@ -47,25 +47,10 @@ This project aims to identify at-risk customers early enough for retention teams
 | Metric | Logistic Regression Results | Decision Tree Results | Random Forest Results |
 |---------|-----------------------------|-----------------------|-----------------------|
 | Accuracy | 0.78 | 0.75 | 0.70 |
-- Churn Recall: 0.37
-- Churn Precision: 0.38
-- Churn F1 Score: 0.38
-- ROC-AUC: 0.729
-
-- Decision Tree Results
-- Accuracy: 0.75
-- Churn Recall: 0.34
-- Churn Precision: 0.32
-- Churn F1 Score: 0.33
-- ROC-AUC: 0.636
-
-- Random Forest Results
-- Accuracy: 0.7
-- Churn Recall: 0.63
-- Churn Precision: 0.32
-- Churn F1 Score: 0.42
-- ROC-AUC: 0.717
-
+| Churn Recall | 0.37 | 0.34 | 0.63 |
+| Churn Precision | 0.38 | 0.32 | 0.32 |
+| Churn F1 Score | 0.38 | 0.33 | 0.42 |
+| ROC-AUC | 0.729 | 0.636 | 0.717 |
 
 ## Key Findings
 Random Forest model was the best performing.
