@@ -1,4 +1,4 @@
-# Customer Churn Prediction using Machine Learning
+# Customer Churn Prediction Using Machine Learning
 
 ## Overview
 This project predicts customer churn for a fictional SaaS company using machine learning.
